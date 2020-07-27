@@ -12,7 +12,7 @@
 
 cmake_minimum_required(VERSION 3.7.2)
 include(settings.cmake)
-project(picoserver C)
+project(picoserver C CXX ASM)
 
 find_package(camkes-tool REQUIRED)
 find_package(global-components REQUIRED)
