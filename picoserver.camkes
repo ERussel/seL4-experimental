@@ -133,6 +133,7 @@ assembly {
         /* IP and multicast address to assign to the networking device */
         picotcp_base_configuration(picoserver, pico_base, PICOSERVER_IP_ADDR, "0.0.0.0")
 
+		picoserver.ethdriver_mac = [0x0c, 0xc4, 0x7a, 0x1f, 0x6d, 0x91];
         picoserver.ethdriver_shmem_size = 0x1000;
         picoserver.heap_size = 0x40000;
 
